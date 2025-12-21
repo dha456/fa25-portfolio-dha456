@@ -6,6 +6,7 @@ description: Multi-disciplinary design project integrating materials selection,
 technologies: [SolidWorks, ANSYS, MATLAB/Python]
 image: /assets/images/Part2.STEP
 author: Davis Adams
+published: true
 ---
 
 ## Project Overview
