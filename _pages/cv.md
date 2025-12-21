@@ -13,7 +13,7 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+I'm an eager mechanical engineering student seeking to offer skills in the aerospace and computer science industry and work on solving solutions to challenging real-world problems. I'm an organized student with solid communication skills and close attention to detail; I am ready to make an impact as a member of any team I’m a part of.
 
 ---
 
