@@ -54,7 +54,7 @@ GitHub Pages, the framework powering the portfolio system, uses [Jekyll](https:/
 
 ### Name
 
-Change references to `<Your Name>` to your actual name in the following files:
+Change references to `<Davis Adams>` to your actual name in the following files:
 - `_config.yml`
 - `index.md`
 - `projects.md`
