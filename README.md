@@ -64,7 +64,7 @@ No need to keep the `< >` brackets. They are just there to indicate placeholders
 
 ### Homepage
 - `index.md`: Replace the placeholder text with a welcome or pitch paragraph about yourself.
-- `assets/images/profile-pic.jpg`: Replace the placeholder with a portrait of yourself.
+- `assets/images/davischillin.jpeg`: This repository now includes `davischillin.jpeg` as the profile picture; replace it with your own portrait if you prefer.
 
 ### Projects
 - In the `_projects` folder: Use the provided example pages (e.g., `2022-trig-analysis.md`) to build one page per project.

@@ -316,43 +316,29 @@ measurements, the flywheel has an outer
 diameter of 121 mm, a 54 mm hub, and
 4:19
 about 33 mm of blade height, which gives
-4:21
-an outlet flow area of roughly 9 * 103rd
-4:24
-m. And under normal cutting load, the
-4:26
-gine runs close to about 8,000 RPM.
-4:28
-That gives a rotor tip speed about 50
-4:30
-m/s and a Reynolds number around 10^
-4:32
-5th, meaning the flow over the blades is
-4:33
-fully turbulent. To estimate air flow, I
-4:35
-use a standard radial fan assumption
-4:37
-that the average exit velocity is around
-4:39
-40% of the tip speed. So roughly 20 m/s,
-4:42
-which gives a flow rate about 0.19 cubic
-4:43
-meters/s and has a mass flow rate around
-4:46
-22 kg/s. Using Bernoli's dynamic
-4:49
-pressure, that velocity corresponds to a
-4:51
-pressure rise of about 250 pascals,
-4:53
-which translates to a fan power about
-4:54
-roughly 50 W, which is small compared to
-4:56
-engine power, but enough to cool the
-4:58
-cylinder effectively.
+an outlet flow area of roughly 9×10⁻³ m². And under normal cutting load, the
+engine runs close to about 8,000 RPM. That gives a rotor tip speed of about 50
+m/s and a Reynolds number on the order of 10⁵, meaning the flow over the blades is
+fully turbulent. To estimate air flow, we use a standard radial-fan assumption that the
+average exit velocity is around 40% of the tip speed (≈20 m/s). This yields a volumetric
+flow of roughly 0.18–0.19 m³/s and, assuming air density ≈1.2 kg/m³, a mass flow of about
+0.22 kg/s (note: the previous transcript value of 22 kg/s was off by two orders of magnitude).
+Using Bernoulli's dynamic pressure, that velocity corresponds to a pressure rise of ≈240–250 Pa
+and an aerodynamic power on the order of 40–50 W — small compared to engine power but
+sufficient to provide effective convective cooling across the cylinder fins and ignition components.
+
+## My contribution
+I performed the final flywheel cooling calculations summarized above. Specifically, I:
+
+- Measured the flywheel geometry and estimated the outlet flow area from rim dimensions.
+- Converted measured operating speed (≈8000 RPM) to tip speed and used a radial-fan model
+  (avg exit velocity ≈0.4×tip speed) to estimate exit velocity.
+- Calculated volumetric flow (~0.19 m³/s), mass flow (~0.22 kg/s), dynamic pressure (~240 Pa),
+  and approximate aerodynamic power (~45 W).
+
+These calculations quantify the flywheel's cooling contribution and identify key assumptions and
+uncertainties (for example, using 0.4 as the fraction of tip speed for average exit velocity and
+measurement tolerances). I authored these derivations and the concise summary here to document
+this portion of the project.
 
 [Music]
