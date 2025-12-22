@@ -6,11 +6,39 @@ title: Davis Adams
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/davischillin.jpeg" | relative_url }}){: class="profile-image"}
 
- 
-My name is {{ site.name }}, and I am an eager mechanical engineering student seeking to offer skills in the aerospace and computer science industry and work on solving solutions to challenging real-world problems. I'm an organized student with solid communication skills and close attention to detail; I am ready to make an impact as a member of any team I’m a part of.
+I’m a driven Mechanical Engineering student with a strong interest in aerospace systems, robotics, and computational modeling. My goal is to apply engineering fundamentals and software tools to solve complex, real-world challenges at the intersection of mechanics and technology. I bring strong communication skills, attention to detail, and a collaborative mindset to every project I take on, and I’m always eager to keep learning and growing as an engineer.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+---
+
+## Gallery
+
+<div class="project-gallery">
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/davischillin.jpeg' | relative_url }}" alt="Davis">
+    <p>Davis</p>
+  </div>
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/spaceship-design.jpg' | relative_url }}" alt="Spaceship design">
+    <p>Spaceship design</p>
+  </div>
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/radio-machine.jpg' | relative_url }}" alt="Radio machine">
+    <p>Radio machine</p>
+  </div>
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/radio-machine-cad.jpg' | relative_url }}" alt="CAD">
+    <p>CAD</p>
+  </div>
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/function-graph.png' | relative_url }}" alt="Function graph">
+    <p>Function graph</p>
+  </div>
+  <div class="gallery-item">
+    <img src="{{ 'assets/images/vscode-clone.jpg' | relative_url }}" alt="VS Code">
+    <p>VS Code</p>
+  </div>
+</div>
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
