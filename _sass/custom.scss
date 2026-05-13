@@ -31,23 +31,28 @@ h1 {
 body {
   font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
   line-height: 1.6;
-  background-color: $background-color;
+  background: linear-gradient(135deg, $background-color 0%, lighten($background-color, 5%) 100%);
   color: $text-color;
   margin: 0;
   padding: 0;
 }
 
 header, footer {
-  padding: 10px 5px;
-  background: $primary-color;
+  padding: 20px 15px;
+  background: linear-gradient(90deg, $primary-color 0%, darken($primary-color, 10%) 100%);
   color: $background-color;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 header {
   margin-bottom: 40px;
+  border-radius: 0 0 10px 10px;
 }
 
 footer {
+  margin-top: 40px;
+  border-radius: 10px 10px 0 0;
+}
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
@@ -178,11 +183,17 @@ footer {
 
 .gallery-item:hover {
   transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-image {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-image:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .back-arrow {
@@ -193,6 +204,60 @@ footer {
   margin-bottom: 1em;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.back-arrow:hover {
+  color: $primary-color;
+  transform: translateX(-5px);
+}
+
+// Additional aesthetic enhancements
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn:hover {
+  background-color: darken($primary-color, 10%);
+}
+
+h2, h3, h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: $primary-color;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: $primary-color;
+  color: $background-color;
+}
+
+tr:nth-child(even) {
+  background-color: lighten($background-color, 2%);
+}
+
+tr:hover {
+  background-color: lighten($background-color, 5%);
 }
 
 .back-arrow:hover {

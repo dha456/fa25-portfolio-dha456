@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b2f5f"/>
+  <rect x="60" y="60" width="1080" height="510" rx="30" fill="#0f4f8b"/>
+  <text x="600" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" font-weight="700">MAE 3780 Cube Craze</text>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#b8d8ff">Robot Competition Project</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#dce7ff">Davis Adams, Reggie Harris, Ryan Xie</text>
+  <text x="600" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#dce7ff">Autonomous cube-collection strategy and design</text>
+  <circle cx="1000" cy="520" r="70" fill="#ffffff" opacity="0.12"/>
+  <circle cx="120" cy="520" r="70" fill="#ffffff" opacity="0.12"/>
+</svg>
