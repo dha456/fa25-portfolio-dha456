@@ -265,4 +265,25 @@ tr:hover {
   transform: translateX(-4px);
 }
 
+/* Cleaner main content container with subtle border */
+.main-content {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid rgba(58,63,88,0.08);
+  box-shadow: 0 6px 18px rgba(54,60,82,0.06);
+}
+
+/* Slightly stronger gallery card borders and spacing */
+.gallery-item {
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 8px;
+  border: 1px solid rgba(58,63,88,0.06);
+}
+
+.project-gallery {
+  gap: 24px;
+}
+
 
